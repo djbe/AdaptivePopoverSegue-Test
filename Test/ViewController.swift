@@ -43,17 +43,27 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
 }
 
 class NavigationController: UINavigationController {
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		NSLog("Loaded navigation controller (%p)", self)
+	}
+
 	deinit {
-		NSLog("Deinit navigation controller")
+		NSLog("Deinit navigation controller (%p)", self)
 	}
 }
 
 class DetailsViewController: UIViewController {
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		NSLog("Loaded details view controller (%p)", self)
+	}
+
 	@IBAction func dismiss(button: UIButton) {
 		dismissViewControllerAnimated(true, completion: nil)
 	}
 
 	deinit {
-		NSLog("Deinit details view controller")
+		NSLog("Deinit details view controller (%p)", self)
 	}
 }
