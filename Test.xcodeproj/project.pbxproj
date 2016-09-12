@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD9FE05C1D876929000C4E3F /* AutoWrapStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9FE05B1D876929000C4E3F /* AutoWrapStoryboardSegue.swift */; };
+		DD9FE05E1D876B0B000C4E3F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9FE05D1D876B0B000C4E3F /* DetailsViewController.swift */; };
+		DD9FE0601D876CAD000C4E3F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9FE05F1D876CAD000C4E3F /* NavigationController.swift */; };
 		DDE05E111CD92685001F825F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE05E101CD92685001F825F /* AppDelegate.swift */; };
 		DDE05E131CD92685001F825F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE05E121CD92685001F825F /* ViewController.swift */; };
 		DDE05E161CD92685001F825F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE05E141CD92685001F825F /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD9FE05B1D876929000C4E3F /* AutoWrapStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoWrapStoryboardSegue.swift; sourceTree = "<group>"; };
+		DD9FE05D1D876B0B000C4E3F /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DD9FE05F1D876CAD000C4E3F /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		DDE05E0D1CD92685001F825F /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE05E101CD92685001F825F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE05E121CD92685001F825F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 			children = (
 				DDE05E101CD92685001F825F /* AppDelegate.swift */,
 				DDE05E121CD92685001F825F /* ViewController.swift */,
+				DD9FE05B1D876929000C4E3F /* AutoWrapStoryboardSegue.swift */,
+				DD9FE05D1D876B0B000C4E3F /* DetailsViewController.swift */,
+				DD9FE05F1D876CAD000C4E3F /* NavigationController.swift */,
 				DDE05E141CD92685001F825F /* Main.storyboard */,
 				DDE05E171CD92685001F825F /* Assets.xcassets */,
 				DDE05E1C1CD92685001F825F /* Info.plist */,
@@ -93,6 +102,7 @@
 				TargetAttributes = {
 					DDE05E0C1CD92685001F825F = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -133,6 +143,9 @@
 			files = (
 				DDE05E131CD92685001F825F /* ViewController.swift in Sources */,
 				DDE05E111CD92685001F825F /* AppDelegate.swift in Sources */,
+				DD9FE0601D876CAD000C4E3F /* NavigationController.swift in Sources */,
+				DD9FE05C1D876929000C4E3F /* AutoWrapStoryboardSegue.swift in Sources */,
+				DD9FE05E1D876B0B000C4E3F /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +256,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -254,6 +268,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
